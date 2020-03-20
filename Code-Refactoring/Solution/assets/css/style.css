@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* changed the div selector to nav since I changed the element name on the html document. The same was done for line 35 & 39 */
+/* the calibri in the font-family needs to be put in apostrophes*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* the calibri in the font-family needs to be put in apostrophes*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* The classes named Benefit-lead, Benefit-brand, benefit-cost all have the same styling so can be consolidated under one */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* The h3 tags all have the same styling and the h3 tag is not used anywhere else on the source code
+ .so there is no need for selecting the different classes we can just select the h3 tag */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* All the images within the aside element with class name "benefits" have the same styling therefore, 
+instead of selecting each individual class we can use the selector '.benfeits img' to select the images found in that class and consolidate all the styles under one */
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* The classes '.search-engine-optimization','.online-reputation-management' & '.social-media-marketing' all have the same styling so we can consolidate these under one.
+the calibri in the font-family needs to be put in apostrophes */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* The images found within the main element have the same styling so we can use the selector '.content img' to consolidate under one */
+
+.content img {
+    max-height: 200px;
+}
+/* The h2 tags all have the same styling and the h2 tag is not used anywhere else on the source code
+ .so there is no need for selecting the different classes we can just select the h2 tag */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
