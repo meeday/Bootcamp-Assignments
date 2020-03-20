@@ -35,6 +35,9 @@ I used the Optimal format provided on: https://moz.com/learn/seo/title-tag
 *	I found that the elements followed a logical structure independent of styling and positioning so I left the html as it was, 
 However the CSS was longer than was necessary therefore I consolidated some styling in one line of code; 
 there are comments on the CSS file that detail these changes. Also view the CSS snapshots
-[screenshots]:https://github.com/meeday/Bootcamp-Assignments/tree/master/Screenshots/
+[HTML Screenshot]:https://github.com/meeday/Bootcamp-Assignments/tree/master/Screenshots/HTML-part-1.png
 
+[HTML Screenshot]:https://github.com/meeday/Bootcamp-Assignments/tree/master/Screenshots/HTML-part-2.png
+
+[CSS screenshot]:https://github.com/meeday/Bootcamp-Assignments/tree/master/Screenshots/CSS.png
 
